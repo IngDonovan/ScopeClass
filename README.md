@@ -1,0 +1,2 @@
+# ScopeClass
+Practica Scope JavaScript
