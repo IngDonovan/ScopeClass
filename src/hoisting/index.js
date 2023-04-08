@@ -11,3 +11,16 @@ function nameOfDog() {
 }
 
 var elmo = 'Elmito';
+
+
+//el hoisting lo eleva y queda de esta manera
+
+var elmo;
+function nameOfDog() {
+    console.log(`El mejor perrito es ${elmo}`);
+}
+nameOfDog();
+
+var elmo = 'Elmito';
+
+
